@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home({
   onIncrement,
-  onDecrement, // Assurez-vous que cela est défini
+  onDecrement,
   counter,
 }) {
   return (
