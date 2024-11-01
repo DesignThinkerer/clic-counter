@@ -1,17 +1,13 @@
 import React from 'react';
+import Counter from '../../components/Counter';
 
-function Home({
-  onIncrement,
-  onDecrement,
-  counter,
-}) {
+function Home(props) {
   return (
     <div>
-      <button onClick={onIncrement}>Incrémenter</button>
-      <button onClick={onDecrement} disabled={counter === 0}>Décrémenter</button>
-      <p>Vous avez cliqué {counter} fois</p>
+      <h1>Page d'accueil</h1>
+      <Counter {...props} />
     </div>
   );
-};
+}
 
 export default Home;
