@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { createStructuredSelector } from 'reselect';
 
-import Home from '../../views/Home';
+import Counter from '../../components/Counter';
 import { makeSelectHomeContainerCounter } from './selector';
 import { incrementAction, decrementAction } from './action';
 import { useInjectReducer } from '../../utils/injectReducer';
@@ -15,7 +15,7 @@ const key = 'homeContainer';
 function HomeContainer(props) {
   useInjectReducer({ key, reducer });
 
-  return (<Home {...props} />);
+  return (<Counter {...props} />);
 }
 
 const mapStateToProps = createStructuredSelector({
