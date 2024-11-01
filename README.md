@@ -3,7 +3,7 @@
 ### Start project
 To start the project, use the command `npm run start`
 
-# Présentation de la Solution
+# Présentation
 
 Le projet est en ligne à cette adresse: https://designthinkerer.github.io/clic-counter/#/
 
