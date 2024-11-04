@@ -65,7 +65,7 @@ J'ai pris soin d'ajouter des **attributs ARIA** pour rendre le composant accessi
 
 ### 4. Tests Unitaires avec Jest
 
-Afin de respecter les dépendances indiquées, pour valider le bon fonctionnement du composant, j'ai écrit des **tests unitaires** en utilisant **Jest**. J'ai également utilisé des mocks pour vérifier que les fonctions de callback (`onIncrement` et `onDecrement`) étaient bien appelées lorsque l'utilisateur interagit avec les boutons. On pourrait également envisager d'utiliser la bibliothèque **React Testing Library** pour des projets utilisant une version plus récente de React.
+Afin de respecter les dépendances indiquées, pour valider le bon fonctionnement du composant, j'ai écrit des **tests unitaires** (Counter.test.js) en utilisant **Jest**. J'ai également utilisé des mocks pour vérifier que les fonctions de callback (`onIncrement` et `onDecrement`) étaient bien appelées lorsque l'utilisateur interagit avec les boutons. On pourrait également envisager d'utiliser la bibliothèque **React Testing Library** pour des projets utilisant une version plus récente de React.
 
 ### 5. Simplicité et Lisibilité
 
