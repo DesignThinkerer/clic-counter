@@ -82,4 +82,4 @@ Le projet est hébergé sur **GitHub Pages**, via l'outil **gh-pages**, afin de 
 
 ## Conclusion
 
-En conclusion, ce petit projet a été conçu pour être à la fois **simple** et **efficace**, en mettant l'accent sur les bonnes pratiques de développement en React et sur l'écriture de tests unitaires pour garantir un code fiable. Je reste disponible pour toute question ou clarification concernant l'implémentation.
+En conclusion, ce petit projet a été conçu pour être à la fois **simple** et **efficace**, en mettant l'accent sur les bonnes pratiques de développement en React et sur l'écriture de tests unitaires pour garantir un code fiable.
